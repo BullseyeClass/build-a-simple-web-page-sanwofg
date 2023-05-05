@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(250, 235, 215);
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 179, 95);
+}
+header p{
+    color: rgb(6, 6, 7);
+    font-size: 20px;
+    margin-left: 10vw;
+}
+a{
+    text-decoration: none;
+    color: rgb(6, 6, 7);
+}
+.first-heading{
+    width: 50%;
+}
+.heading-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+h1{
+    font-size: 30px;
+    margin-left: 3vw;
+}
+.description{
+    width: 35vw;
+    margin-left: 5vw;
+    margin-top: 20vh;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10vh;
+    line-height: 30px;
+    opacity: 0.8;
+    text-align: center;
+}
+.divs{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(247, 227, 186)
+}
+img{
+    width: 500px;
+}
+.health-status{
+   margin-left: 15px; 
+   margin-top: 20vh;
+   font-size: 25px;
+   opacity: 0.7;
+   text-align: center;
+
+}
+button{
+    background-color:rgb(243, 179, 95) ;
+    border: none;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left:17vw ;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.7;
+}
+#result{
+    margin-left: 16vw;
+    font-size: 22px;
+    margin-top: 5vh;
+}
